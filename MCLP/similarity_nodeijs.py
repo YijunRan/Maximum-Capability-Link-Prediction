@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Mon Jun 12 17:48:34 2017
+Created on Mon Jun 12 17:48:34 2019
 
 @author: Yijun Ran
 """
@@ -158,12 +158,14 @@ def Localpath(G, nodeij, beta, l, n):
 ####################### AUC function ######################################
 def AUC(real_edges, false_edges):
     """
-    AUC(input1,input2)   
-    the statistic for comparing two different link prediction methods   
+    AUC(real_edges, false_edges)
+    
+    calculate AUC   
+    
     Parameters
     ----------  
-    input1:       - the result of the first test dataset: real existing links
-    input2:       - the result of the second test dataset: no existing links    
+    real_edges:        - the score of node pair in missing links
+    false_edges:       - the score of node pair in nonexistent links    
     """
     AUC_real = 0
     AUC_false = 0

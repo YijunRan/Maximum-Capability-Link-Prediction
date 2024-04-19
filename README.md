@@ -6,7 +6,8 @@ Yijun Ran, Xiao-Ke Xu, Tao Jia. [The maximum capability of a topological feature
 
 ## How to cite this work:
 If you use this code in your research, please cite it as follows:
-@article{ran2024maximum,
+
+@software{ran2024maximum,
   title={The maximum capability of a topological feature in link prediction},
   author={Ran, Yijun and Xu, Xiao-Ke and Jia, Tao},
   journal={PNAS nexus},

@@ -1,16 +1,10 @@
-cff-version: 1.2.0
-message: "If you use this code, please cite it as below."
-authors:
-- family-names: "Ran"
-  given-names: "Yijun"
-- family-names: "Xu"
-  given-names: "Xiao-Ke"
-- family-names: "Jia"
-  given-names: "Tao"
-title: "The maximum capability of a topological feature in link prediction"
-journal: PNAS nexus
-volume: 3
-number: 3
-pages: pgae113
-year: 2024
-publisher: Oxford University Press
+@article{ran2024maximum,
+  title={The maximum capability of a topological feature in link prediction},
+  author={Ran, Yijun and Xu, Xiao-Ke and Jia, Tao},
+  journal={PNAS nexus},
+  volume={3},
+  number={3},
+  pages={pgae113},
+  year={2024},
+  publisher={Oxford University Press}
+}
